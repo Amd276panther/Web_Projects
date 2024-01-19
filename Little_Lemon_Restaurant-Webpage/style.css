@@ -1,0 +1,131 @@
+body{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+article h2{
+    color: #f8f807;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+}
+nav{
+    background-color: black;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    display: flex; /* Displaying the list items in a row */
+  justify-content: space-around; /* Distributing the space around the list items */
+  padding: 10px;
+}
+nav a {
+    color: white; /* Text color of the links */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+
+nav li{
+    display: inline-block;
+    margin: 0 15px;
+}
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+}
+footer{
+    display: flex;
+}
+footer div{
+    flex: 1;
+}
+footer img{
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+a:hover {
+    color: #ffcc00; /* Change text color on hover */
+  }
+
+.prime{
+    background-image: url(./mainbanner.jpg.webp);
+    color: rgba(63, 21, 21, 0.913);
+}
+
+.submenu{
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    margin-right: 2%;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd; /* Add a subtle border between image and content */
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card h2 {
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  .card a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+
+
+  .copyright{
+    text-align: right;
+  }
+
