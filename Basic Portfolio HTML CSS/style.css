@@ -24,3 +24,15 @@ button:hover{
 a:active{
     color:red;
 }
+
+img:hover{
+    transform: scale(1.05);;
+}
+
+ul{
+    font-weight: 600;
+}
+
+.company{
+    text-align: center;
+}
