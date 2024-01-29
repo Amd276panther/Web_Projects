@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #090909;
+  color: #ddd;
+}
+
+#sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  color: #fff;
+}
+
+#sidebar img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+border: 1px solid white;;
+}
+
+.name {
+  text-align: center;
+}
+#main-content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #2b2a2a;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #591212;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.education-part {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+.portfolio-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: auto;
+}
+
+.btn0{
+    background-color: #090909;
+}
+
+.contact-section {
+  margin-top: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  color: #c02a2a;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttoner {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+button:hover {
+  background-color: #444;
+}
+
+.education-part div{
+    border-right: 2px solid #fbf8f8
+}

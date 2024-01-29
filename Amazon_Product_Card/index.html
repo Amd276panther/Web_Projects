@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="filters">
+    <div class="filter-category">
+        <label for="category">Category:</label>
+        <select id="category">
+            <option value="all">All Categories</option>
+            <option value="electronics">Electronics</option>
+            <option value="clothing">Clothing</option>
+            <!-- Add more categories as needed -->
+        </select>
+    </div>
+
+    <div class="filter-price">
+        <label for="price">Price Range:</label>
+        <select id="price">
+            <option value="all">All Prices</option>
+            <option value="0-50">$0 - $50</option>
+            <option value="50-100">$50 - $100</option>
+            <!-- Add more price ranges as needed -->
+        </select>
+    </div>
+</div>
+
+<div class="product-listing">
+    <!-- Product Card 1 -->
+    <div class="product-card">
+        <img class="product-image" src="https://www.collinsdictionary.com/images/full/tshirt_204029461_1000.jpg" alt="Product Image">
+        <div class="product-details">
+            <div class="product-title">Product 1</div>
+            <div class="product-price">$49.99</div>
+        </div>
+    </div>
+
+    <!-- Product Card 2 -->
+    <div class="product-card">
+        <img class="product-image" src="https://target.scene7.com/is/image/Target/Electronics219475-200305_1583423525490-210803-1628013505239" alt="Product Image">
+        <div class="product-details">
+            <div class="product-title">Product 2</div>
+            <div class="product-price">$79.99</div>
+        </div>
+    </div>
+
+    <!-- Add more product cards as needed -->
+
+</div>
+
+</body>
+</html>
