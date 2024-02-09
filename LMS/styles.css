@@ -1,0 +1,38 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .book-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .book-form input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .search-container {
+    margin-top: 20px;
+  }
+  
+  .search-result {
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+h1{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: green;
+}

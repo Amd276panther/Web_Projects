@@ -1,0 +1,1 @@
+This project is about Library Management System using HTML, CSS and JavaScript. One can add Name of Book, Author, number of pages and Genre for the Book and Later use the Search Functionality to search individual books. Search Results will be displayed in form of card under the search button. 
