@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+
+
+.task-manager {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-manager input {
+    width: calc(100% - 70px);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task-manager button {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .task-item button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  button {
+    color: white;
+    background-color: red;
+  }
