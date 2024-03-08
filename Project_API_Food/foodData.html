@@ -1,0 +1,51 @@
+<body>
+    <h1>Food and Nutrition Data</h1>
+    <table id="playerTable" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Calories</th>
+                <th>Protein</th>
+                <th>Carbohydrate</th>
+                <th>Fat</th>
+                <th>Sodium</th>
+                <th>Fiber</th>
+                <th>SaturatedFat</th>
+                <th>TransFat</th>
+                <th>Monounsaturated Fat</th>
+                <th>Polyunsaturated Fat</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+    <script>
+        fetch('http://127.0.0.1:3200/getFoodData')
+        .then((res) => res.json())
+        .then((data)=> {
+            console.log('fetched data', data);
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML='';
+            //populate data inside tbody
+            data.forEach(item=>{
+                const row = document.createElement('tr');
+                row.innerHTML=`<td>${item.name}</td>
+                <td>${item.calories}</td>
+                <td>${item.protein}</td>
+                <td>${item.carbohydrate}</td>
+                <td>${item.fat}</td>
+                <td>${item.sodium}</td>
+                <td>${item.fiber}</td>
+                <td>${item.saturatedFat}</td>
+                <td>${item.transFat}</td>
+                <td>${item.monounsaturatedFat}</td>
+                <td>${item.polyunsaturatedFat}</td>`
+                tableBody.appendChild(row);
+            }
+            );
+                
+            })
+        .catch((error) => console.log(error));
+    </script>
+</body>
