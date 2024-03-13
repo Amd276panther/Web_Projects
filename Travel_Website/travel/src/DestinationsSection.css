@@ -1,0 +1,26 @@
+.destination-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .destination-card img {
+    width: 100%; 
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .destination-card h3,
+  .destination-card p {
+    text-align: center; 
+    margin: 10px 0; /* Added some margin for spacing */
+  }
+
+  .destination-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px; 
+    max-height: 300px; 
+  }
+  
+  
