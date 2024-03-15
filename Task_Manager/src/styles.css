@@ -1,0 +1,27 @@
+/* Basic styling for the form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
