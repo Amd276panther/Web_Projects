@@ -1,0 +1,27 @@
+.event-registration-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .event-list,
+  .registered-event-list {
+    display: flex; /* Change from grid to flex */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: flex-start; /* Start from the left */
+  }
+  
+  .event-card,
+  .registered-event-card {
+    color: darkblue;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px; /* Add margin between cards */
+    margin-bottom: 20px; /* Add margin at the bottom of each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+   

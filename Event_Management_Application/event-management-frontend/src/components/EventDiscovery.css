@@ -1,0 +1,54 @@
+.event-discovery-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .event-discovery-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .event-list1 {
+    display: flex; /* Change from grid to flex */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Distribute items evenly */
+  }
+  
+  .event-card1 {
+    color: darkblue;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    width: calc(33.33% - 20px); /* Set width for each card */
+    margin-bottom: 20px; /* Add margin to separate cards */
+  }
+  
+  .event-card1:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-title1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .event-date1,
+  .event-description {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  

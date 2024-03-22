@@ -1,0 +1,122 @@
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Ensure cards start from the left */
+  }
+  
+ 
+  .event-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+
+  .event-info {
+    margin-bottom: 15px;
+  }
+  
+  .event-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .event-date {
+    color: #666;
+  }
+  
+ 
+  .event-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-btn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e74c3c;
+  }
+  
+ 
+  .rem-para {
+    background-color: #66cdaa;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  
+  
+
+  input {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out;
+    justify-content: center;
+  }
+  
+  input:focus {
+    border-color: #66cdaa;
+  }
+  
+  form {
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #3c5997, #3c5997);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+ 
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .event-card,
+  .form-container {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  

@@ -1,0 +1,47 @@
+.event-interaction-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .discussion-section {
+    margin-bottom: 20px;
+  }
+  
+  .discussion-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .discussion {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .new-discussion textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .new-discussion button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b5998;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .new-discussion button:hover {
+    background-color: #2d4373;
+  }
+  
